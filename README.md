@@ -50,7 +50,7 @@ DELETE /usuarios/{id} → Remover usuário
 POST /livros → Cadastrar livro
 GET /livros → Listar livros
 GET /livros/{id} → Buscar livro por ID
-GET /livros/pesquisa?titulo=xyz → Pesquisar livro por título
+GET /livros/pesquisa?titulo=NOME_DO_LIVRO_AQUI
 PUT /livros/{id} → Atualizar livro
 DELETE /livros/{id} → Deletar livro
 ```
