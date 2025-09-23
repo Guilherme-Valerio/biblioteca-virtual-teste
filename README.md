@@ -27,7 +27,7 @@ cd biblioteca-virtual
 Instale o Maven em sua máquina e cheque com o comando:  mvn -v
 Após isso rode abaixo:
 ```
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 O servidor subirá em:
@@ -41,7 +41,7 @@ POST /usuarios/cadastro → Cadastrar novo usuário
 POST /usuarios/login → Login de usuário
 GET /usuarios → Listar todos os usuários
 PUT /usuarios/{id} → Atualizar usuário
-PUT /usuarios/{id}/senha → Redefinir senha
+PUT /usuarios/{id}/redefinir-senha → Redefinir senha
 DELETE /usuarios/{id} → Remover usuário
 ```
 
